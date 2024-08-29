@@ -66,3 +66,81 @@ nav ul li {
 	border-radius: 10px;
 	border: none;
 }
+
+.card-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.card-section h2 {
+	font-size: 36px;
+	color: #1f2937;
+	font-weight: 900;
+}
+.cards {
+	display: flex;
+}
+.card {
+	width: 200px;
+	padding: 25px;
+	text-align: center;
+}
+
+.square {
+	border: solid 3px #3882f6;
+	border-radius: 25px;
+	margin: 0 25px;
+	height: 150px;
+}
+
+.quote {
+	background-color: #e5e7eb;
+	font-size: 36px;
+	color: #1f2937;
+	font-weight: 300;
+	font-style: italic;
+	padding: 2.5em 10em;
+}
+
+.quote p {
+	font-weight: 900;
+	font-size: 24px;
+	text-align: right;
+}
+
+.cta-section {
+	padding: 4em 15em;
+	color: #f9faf8;
+}
+
+.cta {
+	background-color: #3882f6;
+	padding: 5em 10em;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+.cta-title {
+	color: #f9faf8;
+	font-size: 24px;
+	font-weight: 600;
+}
+.cta-description {
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.cta button {
+	padding: 1em 3em;
+	background-color: #3882f6;
+	border-radius: 10px;
+	border: 3px solid #f9faf8;
+	color: #f9faf8;
+	font-size: 18px;
+}
+
+footer {
+	text-align: center;
+	color: #f9faf8;
+}
